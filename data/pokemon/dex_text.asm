@@ -1099,13 +1099,13 @@ _SnorlaxDexEntry::
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "This is the"
+	next "strongest"
+	next "pokemon"
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "to ever"
+	next "exist in the"
+	next "history."
 	dex
 
 _MukDexEntry::
