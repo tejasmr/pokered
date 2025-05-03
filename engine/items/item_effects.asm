@@ -46,7 +46,7 @@ ItemUsePtrTable:
 	dw UnusableItem      ; VOLCANOBADGE
 	dw UnusableItem      ; EARTHBADGE
 	dw ItemUseEscapeRope ; ESCAPE_ROPE
-	dw ItemUseRepel      ; REPEL
+	dw ItemUseRepel      ; INF_REPEL
 	dw UnusableItem      ; OLD_AMBER
 	dw ItemUseEvoStone   ; FIRE_STONE
 	dw ItemUseEvoStone   ; THUNDER_STONE

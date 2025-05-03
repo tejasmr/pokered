@@ -29,7 +29,7 @@ ItemNames::
 	li "VOLCANOBADGE"
 	li "EARTHBADGE"
 	li "ESCAPE ROPE"
-	li "REPEL"
+	li "INF_REPEL"
 	li "OLD AMBER"
 	li "FIRE STONE"
 	li "THUNDERSTONE"

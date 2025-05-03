@@ -38,7 +38,7 @@ DEF SAFARI_ROCK EQU CASCADEBADGE ; overload
 	const VOLCANOBADGE  ; $1B
 	const EARTHBADGE    ; $1C
 	const ESCAPE_ROPE   ; $1D
-	const REPEL         ; $1E
+	const INF_REPEL         ; $1E
 	const OLD_AMBER     ; $1F
 	const FIRE_STONE    ; $20
 	const THUNDER_STONE ; $21

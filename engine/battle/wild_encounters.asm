@@ -19,7 +19,8 @@ TryDoWildEncounter:
 	ld a, [wRepelRemainingSteps]
 	and a
 	jr z, .next
-	dec a
+	;INF_REPEL
+	;dec a
 	jr z, .lastRepelStep
 	ld [wRepelRemainingSteps], a
 .next
