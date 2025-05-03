@@ -34,7 +34,7 @@ _OaksLabYouWantCharmanderText::
 _OaksLabYouWantSquirtleText::
 	text "So! You want the"
 	line "water #MON,"
-	cont "SQUIRTLE?"
+	cont "MAGIKARP?"
 	done
 
 _OaksLabYouWantBulbasaurText::
