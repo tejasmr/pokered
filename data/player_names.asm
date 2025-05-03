@@ -1,9 +1,9 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
+	next "TEZZ"
 	next "RED"
 	next "ASH"
-	next "JACK"
 	db   "@"
 
 DefaultNamesRival:
@@ -24,8 +24,8 @@ DefaultNamesPlayer:
 
 DefaultNamesRival:
 	db   "NEW NAME"
+	next "TEZZ"
 	next "RED"
 	next "ASH"
-	next "JACK"
 	db   "@"
 ENDC
