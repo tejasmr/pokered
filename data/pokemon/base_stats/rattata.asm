@@ -10,14 +10,15 @@
 	INCBIN "gfx/pokemon/front/rattata.pic", 0, 1 ; sprite dimensions
 	dw RattataPicFront, RattataPicBack
 
-	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, TAIL_WHIP, FLASH, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          FLY,          \
+		 STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding
