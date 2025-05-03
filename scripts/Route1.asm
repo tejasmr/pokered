@@ -13,7 +13,7 @@ Route1Youngster1Text:
 	jr nz, .got_item
 	ld hl, .MartSampleText
 	call PrintText
-	lb bc, POTION, 1
+	lb bc, INF_REPEL, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, .GotPotionText
