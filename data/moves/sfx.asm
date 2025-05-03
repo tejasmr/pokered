@@ -83,6 +83,7 @@ MoveSoundTable:
 	db SFX_BATTLE_13,          $14, $c0 ; PETAL_DANCE
 	db SFX_BATTLE_1B,          $02, $a0 ; STRING_SHOT
 	db SFX_BATTLE_29,          $f0, $80 ; DRAGON_RAGE
+	db SFX_BATTLE_29,          $f0, $80 ; DRACO_METEOR
 	db SFX_BATTLE_29,          $20, $c0 ; FIRE_SPIN
 	db SFX_BATTLE_2F,          $00, $20 ; THUNDERSHOCK
 	db SFX_BATTLE_2F,          $20, $80 ; THUNDERBOLT

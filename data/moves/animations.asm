@@ -164,6 +164,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw DracoMeteorAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -667,6 +668,7 @@ StringShotAnim:
 	db -1 ; end
 
 DragonRageAnim:
+DracoMeteorAnim:
 	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6

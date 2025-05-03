@@ -93,7 +93,6 @@ Moves:
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   70, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, BUG,           95, 40
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 10
-	move DRACO_METEOR, NO_ADDITIONAL_EFFECT,       130, DRAGON,       100, 20
 	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          70, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
@@ -176,5 +175,6 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move DRACO_METEOR, NO_ADDITIONAL_EFFECT,       130, DRAGON,       100, 20
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
