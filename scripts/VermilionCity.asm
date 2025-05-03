@@ -1,4 +1,5 @@
 VermilionCity_Script:
+	SetEvent EVENT_2ND_LOCK_OPENED
 	call EnableAutoTextBoxDrawing
 	ld hl, wCurrentMapScriptFlags
 	bit BIT_CUR_MAP_LOADED_2, [hl]
