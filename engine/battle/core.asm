@@ -4506,10 +4506,36 @@ CalculateDamage:
 	ld b, 4
 	call Divide
 
+; HP Scaling Factor Calculation
+    ld a, [wBattleMonMaxHP]
+    ld c, a           ; Store total HP
+    ld a, [wBattleMonHP]
+    ld b, a           ; Store remaining HP
+    sub b             ; A = Total HP - Remaining HP
+    ld d, a           ; Store difference
+
+; Divide by Total HP
+	ld de, d
+	ld af, c
+    ld [hDivisor], a
+    call Divide
+
+; Ensure minimum scaling of 20%
+    ld a, [hQuotient]
+    cp 51
+    jr nc, .apply_scaling
+    ld a, 51
+.apply_scaling
+    ld b, a
+
+; Apply HP-based scaling multiplier
+    ld [hl], b
+    call Multiply
+
 ; Divide by 50
 	ld [hl], 50
 	ld b, 4
-	call Divide
+	call Divide	
 
 ; Update wCurDamage.
 ; Capped at MAX_NEUTRAL_DAMAGE - MIN_NEUTRAL_DAMAGE: 999 - 2 = 997.
