@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   CUT,          \
-		 FLY,          STRENGTH,     FLASH
+		 DIG,          FLY,          STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding
