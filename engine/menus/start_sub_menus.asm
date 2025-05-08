@@ -258,7 +258,7 @@ StartMenu_Pokemon::
 	jp nc, .notHealthyEnough
 	ld a, [wPartyAndBillsPCSavedMenuItem]
 	push af
-	ld a, MASTER_BALL
+	ld a, POTION
 	ld [wCurItem], a
 	ld [wPseudoItemID], a
 	call UseItem
